@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+requests = "*"
+flask = "*"
+dotenv-python = "*"
+line-bot-sdk = "==1.14.0"
+graphviz = "*"
+transitions = "*"
+beautifulsoup4 = "*"
+pandas = "*"
+opencc = "*"
+python-dotenv = "*"
+openpyxl = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
+python_full_version = "3.9.13"
